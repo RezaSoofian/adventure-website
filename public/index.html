@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="icon" href="./imgs/OD-favIcon.png" type="image/png" />
+    <title>OutDoor website</title>
+  </head>
+  <body>
+    <!-- HEADER SECTION -->
+
+    <header
+      class="w-full h-screen bg-cover bg-no-repeat transition-all duration-300"
+      id="dHeader"
+    >
+      <!-- DESKTOP NAV -->
+      <div class="container hidden lg:block mx-auto p-10">
+        <nav class="flex justify-between items-center">
+          <div><img src="./imgs/logo.png" alt="logo" /></div>
+          <div>
+            <ul
+              class="flex gap-x-10 font-bold font-Roboto text-sm text-zinc-100 child:cursor-pointer child:transition-all child:duration-300 child-hover:text-cRed"
+            >
+              <li>HOME</li>
+              <li>ABOUT</li>
+              <li>BLOG</li>
+              <li>ACTIVITIES</li>
+              <li>CONTACT</li>
+            </ul>
+          </div>
+          <div
+            class="flex items-center gap-x-4 text-zinc-100 child:flex child-hover:opacity-85 child:bg-cRed child:rounded-full child:w-10 child:h-10 child:justify-center child:items-center child:transition-all child:duration-300"
+          >
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+        </nav>
+      </div>
+      <!-- MOBILE NAV -->
+      <nav class="flex justify-between lg:hidden p-5 bg-zinc-100">
+        <div class="flex justify-center items-center w-10 h-10">
+          <a href="#" class="child:text-2xl"
+            ><i class="fa-solid fa-bars"></i
+          ></a>
+        </div>
+        <div><img src="./imgs/logo-dark.png" alt="LOGO" /></div>
+        <div
+          class="hidden md:flex items-center gap-x-3 text-zinc-100 child:flex child:bg-cRed child:rounded-full child:w-10 child:h-10 child:justify-center child:items-center child:transition-all child:duration-300"
+        >
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+      </nav>
+      <div
+        class="text-center md:mt-24 mt-14 text-zinc-100 opacity-0 translate-y-20 transition-all duration-1000"
+        id="hTitle"
+      >
+        <p class="font-PermanentMarker text-xl mb-3">EXPLORE AND</p>
+        <h1 class="font-black text-7xl mb-7">
+          START YOUR <br />
+          ADVENTURE NOW
+        </h1>
+        <button
+          type="button"
+          class="w-40 h-12 text-sm bg-cRed hover:opacity-80 transition-all duration-300"
+        >
+          DISCOVER MORE
+        </button>
+      </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+
+    <main>
+      <!-- EXPERIENCE SECTION -->
+
+      <section class="container mx-auto my-28">
+        <div
+          class="flex flex-wrap lg:flex-nowrap justify-between p-5 pb-10 lg:pb-20 border-b-2 lg:border-b-0 text-center lg:text-left"
+        >
+          <div class="mb-5 lg:mb-0 lg:w-[50%]">
+            <img src="./imgs/EX.sec.img.1.jpg" alt="CANOE IMG" />
+          </div>
+          <div class="my-auto lg:w-[50%] lg:pl-20">
+            <h3 class="mb-5 font-black text-3xl leading-snug">
+              CANOE TREKKING ON LAKE <br />
+              BUNYONYI WITH FRIENDS
+            </h3>
+            <p class="mb-8 line-clamp-3">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud
+            </p>
+            <div
+              class="flex items-center justify-center lg:justify-start gap-x-5"
+            >
+              <div>
+                <span
+                  class="inline-block w-20 rounded-full overflow-hidden border-4 border-solid border-cRed"
+                  ><img src="./imgs/user.pro.jpg" alt="user.pro"
+                /></span>
+              </div>
+              <div>
+                <p class="font-PermanentMarker text-cRed text-lg">
+                  MICHAEIL SCHOT
+                </p>
+                <p class="text-xs font-semibold">ADVENTURER</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex flex-wrap lg:flex-nowrap justify-between p-5 text-center lg:text-left"
+        >
+          <div class="my-auto lg:w-[50%] lg:pr-20">
+            <h3 class="mb-5 font-black text-3xl leading-snug">
+              HOW TO SPEND MORE TIME <br />
+              OUTDOOR TROUGH WINTER
+            </h3>
+            <p class="mb-8 line-clamp-3">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud
+            </p>
+            <button
+              type="button"
+              class="w-40 h-12 mb-5 text-sm bg-cRed text-zinc-100 hover:opacity-80 transition-all duration-300"
+            >
+              DISCOVER MORE
+            </button>
+          </div>
+          <div class="mb-5 lg:mb-0 lg:w-[50%]">
+            <img src="./imgs/EX.sec.img.2.jpg" alt="CANOE IMG" />
+          </div>
+        </div>
+      </section>
+
+      <!-- NEWS SECTION -->
+
+      <section class="bg-zinc-800">
+        <div class="container mx-auto py-28 px-5">
+          <p class="font-PermanentMarker text-zinc-100 text-center">
+            FROM OUR BLOG
+          </p>
+          <h2 class="mb-10 font-black text-5xl text-zinc-100 text-center">
+            LATEST NEWS
+          </h2>
+          <div class="flex gap-x-7 lg:flex-nowrap flex-wrap">
+            <div class="flex flex-col mb-10 lg:mb-0 text-center lg:text-left">
+              <a href="#"
+                ><img src="./imgs/NEWS.sec.img.1.jpg" alt="NEWS IMG"
+              /></a>
+              <p class="mt-5 mb-2 text-cRed text-sm font-semibold">
+                14 FEBRUARY,2024 - ADMIN
+              </p>
+              <span
+                ><a
+                  href="#"
+                  class="text-zinc-100 text-lg font-bold hover:text-cRed transition-all duration-300"
+                  >ARE YOU READY TO STICK TO YOUR RESOLUTION?</a
+                ></span
+              >
+              <p class="mt-2 text-zinc-100 line-clamp-3">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                laoreet nisi justo, sed bibendum velit lobortis quis.
+                Pellentesque habitan
+              </p>
+            </div>
+            <div class="flex flex-col mb-10 lg:mb-0 text-center lg:text-left">
+              <a href="#"
+                ><img src="./imgs/NEWS.sec.img.2.jpg" alt="NEWS IMG"
+              /></a>
+              <p class="mt-5 mb-2 text-cRed text-sm font-semibold">
+                14 FEBRUARY,2024 - ADMIN
+              </p>
+              <span
+                ><a
+                  href="#"
+                  class="text-zinc-100 text-lg font-bold hover:text-cRed transition-all duration-300"
+                  >EXPERT TIPS FOR PERFECTING MOVES</a
+                ></span
+              >
+              <p class="mt-2 text-zinc-100 line-clamp-3">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                laoreet nisi justo, sed bibendum velit lobortis quis.
+                Pellentesque habitan
+              </p>
+            </div>
+            <div class="flex flex-col mb-10 lg:mb-0 text-center lg:text-left">
+              <a href="#"
+                ><img src="./imgs/NEWS.sec.img.3.jpg" alt="NEWS IMG"
+              /></a>
+              <p class="mt-5 mb-2 text-cRed text-sm font-semibold">
+                14 FEBRUARY,2024 - ADMIN
+              </p>
+              <span
+                ><a
+                  href="#"
+                  class="text-zinc-100 text-lg font-bold hover:text-cRed transition-all duration-300"
+                  >TRAVEL GUIDE / PLAN YOUR SURF TRIP TO PARADISE</a
+                ></span
+              >
+              <p class="mt-2 text-zinc-100 line-clamp-3">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                laoreet nisi justo, sed bibendum velit lobortis quis.
+                Pellentesque habitan
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SENTENCES SECTION -->
+
+      <section class="container mx-auto">
+        <div class="flex flex-col justify-center items-center py-12 lg:py-24 px-5 border-b-2 lg:border-b-0">
+          <span class="mb-8"
+            ><img src="./imgs/SEN.sec.img.png" alt="LOGO"
+          /></span>
+          <p
+            class="mb-8 max-w-[570PX] line-clamp-2 text-center text-xl font-bold transition-all"
+            id="note"
+          >
+            "IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT, SED DO EIUSMOD
+            TEMPOR INCIDIDUNT”
+          </p>
+          <span
+            class="font-PermanentMarker text-cRed text-xl transition-all"
+            id="name"
+            >JANE DOE</span
+          >
+        </div>
+      </section>
+
+      <!-- ABOUT US SECTION -->
+      <section
+        class="container mx-auto flex justify-center flex-wrap lg:flex-nowrap gap-x-9 px-5"
+      >
+        <div class="lg:w-1/3 pt-10 text-center lg:text-left">
+          <h2 class="mb-6 text-3xl font-black">WHO WE ARE ?!</h2>
+          <p class="mb-5">
+            Lorem ipsum dolor sit amet, consectetur <br />
+            adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+          </p>
+          <p class="pb-5">
+            Mco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+          <ol class="child:my-6 text-sm font-semibold">
+            <li>
+              <span
+                class="inline-block w-2 h-2 mr-2 rounded-full bg-cRed"
+              ></span
+              >AERIAL ADVENTURE
+            </li>
+            <li>
+              <span
+                class="inline-block w-2 h-2 mr-2 rounded-full bg-cRed"
+              ></span
+              >CLIMBING
+            </li>
+            <li>
+              <span
+                class="inline-block w-2 h-2 mr-2 rounded-full bg-cRed"
+              ></span
+              >HIGH ROPES
+            </li>
+            <li>
+              <span
+                class="inline-block w-2 h-2 mr-2 rounded-full bg-cRed"
+              ></span
+              >HIKING
+            </li>
+          </ol>
+        </div>
+        <div class="lg:w-1/3 mb-6 lg:mb-0">
+          <img src="./imgs/ABOUT.sec.img.1.jpg" alt="#" />
+        </div>
+        <div class="flex flex-col gap-y-6 lg:w-1/3">
+          <img src="./imgs/ABOUT.sec.img.2.jpg" alt="#" />
+          <img src="./imgs/ABOUT.sec.img.3.jpg" alt="#" />
+        </div>
+      </section>
+
+      <!-- GET IN TOUCH SECTION -->
+      <section
+        id="get-in"
+        class="flex flex-col justify-center items-center w-full h-[600PX] mt-28"
+      >
+        <p class="font-PermanentMarker text-cRed text-xl">GET IN TOUCH</p>
+        <h2
+          class="max-w-[800px] px-5 my-10 font-black text-5xl text-center text-zinc-100"
+        >
+          READY TO DISCOVER AMAZING ADVENTURE ?
+        </h2>
+        <button
+          type="button"
+          class="w-40 h-12 mb-5 text-sm bg-cRed text-zinc-100 hover:opacity-80 transition-all duration-300"
+        >
+          CONTACT US
+        </button>
+      </section>
+    </main>
+
+    <!-- FOOTER CONTENT -->
+
+    <footer class="bg-zinc-800">
+      <section
+        class="container mx-auto py-16 flex flex-col lg:flex-row items-center lg:justify-around child:cursor-pointer text-zinc-100 child:text-center child:py-5"
+      >
+        <div>
+          <img src="./imgs/logo.png" alt="LOGO" />
+          <div
+            class="flex items-center gap-x-4 mt-10 text-zinc-100 child:flex child-hover:opacity-85 child:bg-cRed child:rounded-full child:w-10 child:h-10 child:justify-center child:items-center child:transition-all child:duration-300"
+          >
+            <a href="#"
+              ><i class="fa-brands fa-facebook-f" aria-hidden="true"></i
+            ></a>
+            <a href="#"
+              ><i class="fa-brands fa-instagram" aria-hidden="true"></i
+            ></a>
+            <a href="#"
+              ><i class="fa-brands fa-x-twitter" aria-hidden="true"></i
+            ></a>
+          </div>
+        </div>
+        <div>
+          <ul
+            class="font-semibold text-sm child:mb-6 child-hover:text-cRed child:transition-all child:duration-300"
+          >
+            <li>LOCATION & MAP</li>
+            <li>ACCOMODATION</li>
+            <li>ACTIVITIES</li>
+            <li>FOOD & DRINKS</li>
+            <li>SPORTS</li>
+          </ul>
+        </div>
+        <div>
+          <ul
+            class="font-semibold text-sm child:mb-6 child-hover:text-cRed child:transition-all child:duration-300"
+          >
+            <li>AERIAL ADVENTURE</li>
+            <li>CLIMBING</li>
+            <li>HIGH ROPES</li>
+            <li>CAMPING</li>
+            <li>SURFING</li>
+          </ul>
+        </div>
+        <div>
+          <ul
+            class="font-semibold text-sm child:mb-6 child-hover:text-cRed child:transition-all child:duration-300"
+          >
+            <li>HOME</li>
+            <li>ABOUT</li>
+            <li>BLOG</li>
+            <li>ACTIVITIES</li>
+            <li>CONTACT</li>
+          </ul>
+        </div>
+      </section>
+      <p class="py-2 text-center text-zinc-100 text-sm font-semibold">
+        MADE WITH <i class="fa-solid fa-heart text-cRed"></i> BY REZA SOOFIAN
+      </p>
+    </footer>
+     
+    <span id="up-btn" class="flex justify-center items-center w-12 h-12 fixed  bottom-5 right-5 rounded-full bg-cRed text-xl cursor-pointer hover:opacity-80 transition-all duration-300 opacity-0"><i class="fa-solid fa-up-long text-zinc-100"></i></span>
+  
+    <script src="./scripts/app.js"></script>
+    <script
+      src="https://kit.fontawesome.com/0b4c6a2e68.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

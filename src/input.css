@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "roboto";
+    src: url(../fonts/roboto-regular.woff2) format("woff2");
+    font-display: swap;
+  }
+   @font-face {
+    font-family: "roboto-bold";
+    src: url(../fonts/roboto-bold.woff2) format("woff2");
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Permanent-marker";
+    src: url(../fonts/PermanentMarker-webfont.woff) format("woff");
+    font-display: swap;
+  }
+ #get-in{
+  background-image: url("../imgs/GET.sec.img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+}
