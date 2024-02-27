@@ -18,12 +18,12 @@ let nameData = ["NOEL FIELDING", "JANE DOE", "MAGGY SCHOT"];
 let currentImgIndex = 1;
 headerElem.style.backgroundImage = "url(./imgs/header.img.1.jpg)";
 
-// window.addEventListener("load", function () {
-//   setInterval(function () {
-//     headerElem.style.backgroundImage = `url(${headerImgData[currentImgIndex]})`;
-//     currentImgIndex = (currentImgIndex + 1) % headerImgData.length; // Cycle through images
-//   }, 4000);
-// });
+window.addEventListener("load", function () {
+  setInterval(function () {
+    headerElem.style.backgroundImage = `url(${headerImgData[currentImgIndex]})`;
+    currentImgIndex = (currentImgIndex + 1) % headerImgData.length; // Cycle through images
+  }, 4000);
+});
 window.addEventListener("load", function () {
   headerTitle.style.opacity = "1";
   headerTitle.style.transform = "translateY(0)";
@@ -60,5 +60,5 @@ window.addEventListener("scroll", function () {
   }
 });
 upBtn.addEventListener("click", function () {
-  window.scrollTo(0,0);
+  window.scrollTo(0, 0);
 });
