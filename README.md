@@ -23,5 +23,5 @@ it is a beautiful website for sports and adventure activities that is fully resp
 
 ## Screenshots
 
-![App Screenshot](https://github.com/RezaSoofian/Persian-RentCar-website/blob/master/RM.1.png)
+![App Screenshot](https://github.com/RezaSoofian/adventure-website/blob/master/public/imgs/outdoor.web.screen.png)
 
